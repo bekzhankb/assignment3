@@ -13,7 +13,6 @@ public class Sport {
     public String toString() {
         return name + " (Team size: " + teamSize + ")";
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

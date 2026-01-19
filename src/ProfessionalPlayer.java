@@ -7,11 +7,11 @@ public class ProfessionalPlayer extends Player {
     }
 
     @Override
-    public double getSalary() {
+    public double getSalary(){
         return salary;
     }
     @Override
-    public String toString() {
-        return super.toString() + ", Salary: " + salary;
+    public String toString(){
+        return super.toString() + "\nSalary: " + salary;
     }
 }
